@@ -25,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B966D6152D9B3C4800374995 /* expert1.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = expert1.xctestplan; sourceTree = "<group>"; };
+		B966D6162D9B3CF400374995 /* expert1.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = expert1.xctestplan; path = ../expert1.xctestplan; sourceTree = "<group>"; };
 		B9B156B52D947A7000AF22D9 /* expert1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = expert1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -52,6 +54,8 @@
 		B9B156AC2D947A7000AF22D9 = {
 			isa = PBXGroup;
 			children = (
+				B966D6152D9B3C4800374995 /* expert1.xctestplan */,
+				B966D6162D9B3CF400374995 /* expert1.xctestplan */,
 				B9B156B72D947A7000AF22D9 /* expert1 */,
 				B9B157232D94957D00AF22D9 /* Frameworks */,
 				B9B156B62D947A7000AF22D9 /* Products */,
