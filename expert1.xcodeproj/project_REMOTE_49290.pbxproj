@@ -26,7 +26,6 @@
 
 /* Begin PBXFileReference section */
 		B966D6152D9B3C4800374995 /* expert1.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = expert1.xctestplan; sourceTree = "<group>"; };
-		B966D6162D9B3CF400374995 /* expert1.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = expert1.xctestplan; path = ../expert1.xctestplan; sourceTree = "<group>"; };
 		B9B156B52D947A7000AF22D9 /* expert1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = expert1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
