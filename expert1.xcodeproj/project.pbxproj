@@ -11,6 +11,16 @@
 		B9B157272D9495A700AF22D9 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = B9B157262D9495A700AF22D9 /* Swinject */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B96C91342D9D81D70062D5AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9B156AD2D947A7000AF22D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9B156B42D947A7000AF22D9;
+			remoteInfo = expert1;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		B9B1572A2D94989D00AF22D9 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -26,10 +36,16 @@
 
 /* Begin PBXFileReference section */
 		B966D6152D9B3C4800374995 /* expert1.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = expert1.xctestplan; sourceTree = "<group>"; };
+		B96C91302D9D81D70062D5AB /* expert1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = expert1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B156B52D947A7000AF22D9 /* expert1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = expert1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		B96C91312D9D81D70062D5AB /* expert1Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = expert1Tests;
+			sourceTree = "<group>";
+		};
 		B9B156B72D947A7000AF22D9 /* expert1 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = expert1;
@@ -38,6 +54,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B96C912D2D9D81D70062D5AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9B156B22D947A7000AF22D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -55,6 +78,7 @@
 			children = (
 				B966D6152D9B3C4800374995 /* expert1.xctestplan */,
 				B9B156B72D947A7000AF22D9 /* expert1 */,
+				B96C91312D9D81D70062D5AB /* expert1Tests */,
 				B9B157232D94957D00AF22D9 /* Frameworks */,
 				B9B156B62D947A7000AF22D9 /* Products */,
 			);
@@ -64,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				B9B156B52D947A7000AF22D9 /* expert1.app */,
+				B96C91302D9D81D70062D5AB /* expert1Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +103,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B96C912F2D9D81D70062D5AB /* expert1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96C91362D9D81D70062D5AB /* Build configuration list for PBXNativeTarget "expert1Tests" */;
+			buildPhases = (
+				B96C912C2D9D81D70062D5AB /* Sources */,
+				B96C912D2D9D81D70062D5AB /* Frameworks */,
+				B96C912E2D9D81D70062D5AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B96C91352D9D81D70062D5AB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B96C91312D9D81D70062D5AB /* expert1Tests */,
+			);
+			name = expert1Tests;
+			packageProductDependencies = (
+			);
+			productName = expert1Tests;
+			productReference = B96C91302D9D81D70062D5AB /* expert1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B9B156B42D947A7000AF22D9 /* expert1 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9B156C32D947A7100AF22D9 /* Build configuration list for PBXNativeTarget "expert1" */;
@@ -113,6 +161,10 @@
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
+					B96C912F2D9D81D70062D5AB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B9B156B42D947A7000AF22D9;
+					};
 					B9B156B42D947A7000AF22D9 = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -137,11 +189,19 @@
 			projectRoot = "";
 			targets = (
 				B9B156B42D947A7000AF22D9 /* expert1 */,
+				B96C912F2D9D81D70062D5AB /* expert1Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B96C912E2D9D81D70062D5AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9B156B32D947A7000AF22D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -152,6 +212,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B96C912C2D9D81D70062D5AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9B156B12D947A7000AF22D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -161,7 +228,49 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B96C91352D9D81D70062D5AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9B156B42D947A7000AF22D9 /* expert1 */;
+			targetProxy = B96C91342D9D81D70062D5AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		B96C91372D9D81D70062D5AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hafidmust.com.expert1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/expert1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/expert1";
+			};
+			name = Debug;
+		};
+		B96C91382D9D81D70062D5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hafidmust.com.expert1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/expert1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/expert1";
+			};
+			name = Release;
+		};
 		B9B156C12D947A7100AF22D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -340,6 +449,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B96C91362D9D81D70062D5AB /* Build configuration list for PBXNativeTarget "expert1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96C91372D9D81D70062D5AB /* Debug */,
+				B96C91382D9D81D70062D5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B9B156B02D947A7000AF22D9 /* Build configuration list for PBXProject "expert1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
